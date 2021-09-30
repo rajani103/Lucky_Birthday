@@ -23,16 +23,16 @@ function sumOfArr(arr){
             sum+=Number(arr[i]);
             if(sum%luckyNum.value===0){
 
-                result.innerText="Wow your birthday is lucky !!! 🎉";
+                result.innerText="yayyy!!! your birthday is lucky !!! 🎉";
             }
             else{
-                result.innerText="Oops !!! your birthday is not lucky 😞";
+                result.innerText="Oops !!! your birthday is not lucky !!";
             }
         }
         
     }
     else{
-        showMessage("date of birth or lucky number cannot be null");
+        showMessage("DOB or lucky number cannot be null");
     }
 
 }

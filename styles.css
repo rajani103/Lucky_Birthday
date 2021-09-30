@@ -56,7 +56,7 @@ button{
     font-weight: bold;
     border: 1.5px solid black;
     font-family: 'Bitter', serif;
-    background-color: #db297f;
+    background-color: #020505;
     color: white;
 
 }
@@ -68,7 +68,7 @@ button{
     margin: 1rem auto;
     padding-top: 1rem;
     font-family: 'Bitter', serif;
-    color:aqua
+    color:rgb(168, 59, 172)
 
 }
 footer{
