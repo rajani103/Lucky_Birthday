@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap');
+body{
+background-color: #ff9433;
+background-image: linear-gradient(90deg, #ff9433 0%, #f72e6a 50%, #b72197 100%);
+
+}
+
+.container{
+    text-align: center;
+    font-family: 'Bitter', serif;  
+
+}
+nav{
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    font-size:45px;
+    font-weight: 600;
+    padding: 1rem auto;
+
+}
+#error-msg{
+    text-align: center;
+    font-size:x-large;
+    font-weight: bold;
+    margin: 1rem auto;
+    padding-top: 1rem;
+    font-family: 'Bitter', serif;
+    color:darkgray;
+
+}
+
+label{
+    text-align: center;
+    font-size:x-large;
+    /* font-weight: bold; */
+    margin: 1rem auto;
+    max-width:min-content
+}
+input {
+    display: block;
+    margin: 1rem auto;
+    border: 1px solid white;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    font-size: x-large;
+    margin-bottom: 2rem;
+    width: 270px;
+
+}
+button{
+    margin: 0 auto;
+    padding: 0.7rem 1.5rem;
+    font-size: x-large;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    border: 1.5px solid black;
+    font-family: 'Bitter', serif;
+    background-color: #db297f;
+    color: white;
+
+}
+
+#is-lucky{
+    text-align: center;
+    font-size:x-large;
+    font-weight: bold;
+    margin: 1rem auto;
+    padding-top: 1rem;
+    font-family: 'Bitter', serif;
+    color:aqua
+
+}
+footer{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: large;
+    font-family: 'Bitter', serif;
+   
+}
+::placeholder{
+    font-style: 'Bitter', serif;
+    font-style: italic;
+    font-size: large;
+}
+
+footer li{
+    list-style: none;
+    margin: 0 auto;
+    padding: auto;
+}
+footer p{
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+    padding-left: auto;
+    padding-right: auto;
+    font-size: larger;
+}
+li{
+    display: inline;
+    padding: 0.5rem;
+    padding-inline-start: 0rem;
+}
+
+img{
+    height: 2.5rem;
+    width: 2.5rem;
+    opacity: 1;
+
+}
+img:hover{
+    opacity: 0.9;
+}
